@@ -99,7 +99,9 @@ var Quote = function (_React$Component2) {
                 React.createElement(
                     "p",
                     null,
-                    this.props.rawQuote
+                    "\"",
+                    this.props.rawQuote,
+                    "\""
                 ),
                 React.createElement(
                     "h6",

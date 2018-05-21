@@ -53,7 +53,7 @@ class Quote extends React.Component {
         return (
             <div>
                 <p>
-                    {this.props.rawQuote}
+                    "{this.props.rawQuote}"
                 </p>
                 <h6>
                     {this.props.rawAuthor}
