@@ -55,9 +55,9 @@ class Quote extends React.Component {
                 <p>
                     {this.props.rawQuote}
                 </p>
-                <p>
+                <h6>
                     {this.props.rawAuthor}
-                </p>
+                </h6>
                 <button onClick={this.props.refresh}>Get Quote</button>
             </div>
         )

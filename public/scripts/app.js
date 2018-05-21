@@ -102,7 +102,7 @@ var Quote = function (_React$Component2) {
                     this.props.rawQuote
                 ),
                 React.createElement(
-                    "p",
+                    "h6",
                     null,
                     this.props.rawAuthor
                 ),
